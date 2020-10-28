@@ -1,6 +1,15 @@
 // Question 1
 function average() {
   // Write your code here
+ function average(num){
+  let arr = [num];
+  for (let i = 0; i < num.length; i++){
+    arr += num;
+    return num[i];
+    console.log(arr);
+  }
+}
+average(2,3,5)
 }
 
 // Question 2
